@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=M+PLUS+1+Code:wght@500&display=swap" rel="stylesheet">
+    <title>Aashish Fitness</title>
+    <link rel="stylesheet" href="gym.css">
+    <style>
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Left Box for Logo -->
+        <div class="left">
+            <img src="img/images.png" alt="img">
+            Aashish Fitness
+        </div>
+        <!-- Mid box for Navigation -->
+        <div class="mid">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#" class="active" target="_blank" rel="noopener noreferrer">Home</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Contact us</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">About us</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Services</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Right box for Buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- <img src="img/Gym.jpg" alt="" width="200"> -->
+        <div class="container">
+            <h3>Join The Best Gym Of City Now</h3>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <div class="data">
+                        <input type="text" name="name" id="name" placeholder="Aashish Mehra">
+                    </div>
+                    <div class="data">
+                       <input type="number" name="mo. no." id="mo.no." placeholder="Enter Your Number">
+                    </div>
+                    <div class="data">
+                        <input type="date" name="birthDate" id="birthDate">
+                    </div>
+                    <div class="data">
+                        <input type="email" name="email" id="email" placeholder="TheAashish@gmail.com">
+                    </div>
+                    <fieldset>
+                        <legend>
+                            <h2>Payment Information *</h2>
+                        </legend>
+                        <p>Card type:
+                            <select name="card_type" id="card_type">
+                                <option value="">---Select a Card type---</option>
+                                <option value="visa">Visa</option>
+                                <option value="rupay">Rupay</option>
+                                <option value="debit">Debit</option>
+                                <option value="mastercard">Mastercard</option>
+                                <option value="upi">UPI</option>
+                            </select>
+                        </p>
+                        <p>
+                            Card Number <input type="number" name="card_number" id="card_number">
+                        </p>
+                        <p>
+                            Expiration Date: <input type="date" name="exp_date" id="exp_date">
+                        </p>
+                        <p>
+                            CVV: <input type="password" name="cvv" id="cvv">
+                        </p>
+                    </fieldset>
+                    <div>
+                        <button class="btn">Submit</button>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+    <!-- <img src="https://cdn.pixabay.com/photo/2015/01/10/17/32/physiotherapy-595529_640.jpg" alt=""> -->
+    <!-- <img src="https://www.freepnglogos.com/uploads/dumbbell/dumbbell-weight-training-svg-etsy-6.jpg" alt=""> -->
+</body>
+</html>

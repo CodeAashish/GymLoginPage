@@ -1,0 +1,111 @@
+/* CSS Reset */
+body{
+    margin: 0;
+    padding: 0;
+background: url(img/training-828732_1280.jpg);
+    color: white;
+    font-family:monospace ;
+    /* font-family: 'Lobster', cursive; */
+/* font-family: 'M PLUS 1 Code', sans-serif; */
+}
+
+/* Left */
+.left{
+    /* border: 1px solid green; */
+    display: inline-block;
+    position: absolute;
+    left: 13px;
+    top: 20px;
+    text-align: center;
+}
+.left img{
+    width: 109px;
+    display: block;
+}
+
+/* Mid - Navbar */
+.mid{
+    /* border: 1px solid green; */
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+}
+.navbar li a{
+    text-decoration: none;
+    /* padding: 34px 23px; */
+    color: white;
+}
+.navbar li a:hover{
+    background-color: royalblue;
+    text-decoration: underline;
+}
+.navbar li a.active{
+    text-decoration: underline;
+    color: rgb(121, 187, 46);
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;  /* float: left;  */
+    font-size: 20px;
+    padding: 5px;
+}
+
+/* Right */
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    /* border: 1px solid green; */
+}
+.btn{
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 2px solid grey;
+    /* font-size: 10px; */
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.btn:hover{
+    background-color: royalblue;
+}
+
+/* Form */
+.container{
+    border: 2px solid yellow;
+    margin: 130px 20px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    width: 400px;
+}
+.container h3{
+    text-align: center;
+    font-size: x-large;
+    /* background-color: rgb(29, 29, 109) ; */
+}
+.data input{
+    text-align: center;
+    display: block;
+    width: 250px;
+    padding: 6px;
+    margin: 5px auto;
+   
+}
+input{
+    border-radius: 20px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+#card_type{
+    border-radius: 20px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+.form-group button{
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+}
